@@ -3,9 +3,9 @@ import styled from 'styled-components/native'
 export const StyledCard = styled.View`
     background-color: blueviolet;
     width: 340px;
-    height: 140px;
+    height: 150px;
     border-radius: 15px;
-    margin: 20px 0;
+    margin-bottom: 80px;
 `
 
 export const StyledBrasilCard = styled.View`
@@ -16,6 +16,5 @@ export const StyledBrasilCard = styled.View`
     background-color: blueviolet;
     width: 100%;
     height: 150px;
-    margin-top: 50px;
     margin-bottom: 10px;
 `

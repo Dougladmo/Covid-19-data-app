@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
-import { useState } from 'react';
 import { ScrollView, Text, StyleSheet } from 'react-native';
 import RegionCard from './RegionCard';
-import BrasilCard from './BrasilCard';
 
 const CovidDataComponent = ({ data }) => {
 

@@ -12,13 +12,13 @@ export default function App() {
       .then((res) => res.json())
       .then((data) => {
         setCovidData(data);
-
       })
       .catch((error) => console.error(error));
   }, []);
 
   return (
     <View style={styles.container}>
+      <Text style={styles.title} >COVID-19 App</Text>
       <BrasilCard state='Todo o Brasil' infecteds={covidData.infected} presunts={covidData.deceased} />
       <CovidDataComponent data={covidData} />
     </View>
@@ -34,7 +34,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   title: {
-    marginTop: 100,
-    fontSize: 25,
+    backgroundColor: 'blueviolet',
+    width: '100%',
+    padding: 10,
+    textAlign: 'center',
+    marginTop: 60,
+    fontSize: 40,
+    color: 'white'
   }
 });
