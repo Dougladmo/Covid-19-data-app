@@ -5,7 +5,7 @@ export const StyledCard = styled.View`
     width: 340px;
     height: 150px;
     border-radius: 15px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 `
 
 export const StyledBrasilCard = styled.View`
